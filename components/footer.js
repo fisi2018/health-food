@@ -5,10 +5,10 @@ export default function Footer(){
             <ul>
                 <li>
                     <h3>Ubicaciones</h3>
-                    <a href="" target="_blank" >Perú</a>
-                    <a href="" target="_blank" >Chile</a>
-                    <a href="" target="_blank">Colombia</a>
-                    <a href="" target="_blank">Ecuador</a>
+                    <a href="https://www.google.com" target="_blank" >Perú</a>
+                    <a href="https://www.google.com" target="_blank" >Chile</a>
+                    <a href="https://www.google.com" target="_blank">Colombia</a>
+                    <a href="https://www.google.com" target="_blank">Ecuador</a>
                 </li>
                 <li>
                     <h3>Enlaces internos</h3>
@@ -25,10 +25,10 @@ export default function Footer(){
                 </li>
                 <li>
                     <h3>Enlaces externos</h3>
-                    <a href="www.facebook.com" target="_blank" >Facebook</a>
-                    <a href="www.instagram.com" target="_blank">Instagram</a>
-                    <a href="www.twitter.com" target="_blank">Twitter</a>
-                    <a href="www.youtube.com" target="_blank">Youtube</a>
+                    <a href="https://www.facebook.com" target="_blank" >Facebook</a>
+                    <a href="https://www.instagram.com" target="_blank">Instagram</a>
+                    <a href="https://www.twitter.com" target="_blank">Twitter</a>
+                    <a href="https://www.youtube.com" target="_blank">Youtube</a>
                 </li>
             </ul>
             <div>

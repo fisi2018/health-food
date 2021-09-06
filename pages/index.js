@@ -83,17 +83,17 @@ export default function Home(){
                         320:{
                             slidesPerView:1
                         },
-                        480:{
+                        560:{
                             slidesPerView:2,
                             spaceBetween:10
                         },
-                        840:{
+                        960:{
                             slidesPerView:3,
                             spaceBetween:10
                         },
-                        1024:{
+                        1100:{
                             slidesPerView:4,
-                            spaceBetween:20
+                            spaceBetween:10
                         }
                     }} slidesPerView={1} spaceBetween={30} pagination={{
   "clickable": true
@@ -195,6 +195,7 @@ export default function Home(){
             }
             .container-slider-reviews{
                 width:100%;
+                padding:0 3rem;
             }
             .container-slide-review{
                 width:100%;
@@ -215,14 +216,15 @@ export default function Home(){
             h4{
                 color:#E03A00;
                 font-size:1.5rem;
+                margin-left:0.5rem;
             }
             h3{
-                font-weight:lighter;
+                font-weight:regular;
                 color:#E03A00;
             }
             h2{
                 color:#19284E;
-                margin:1rem 0;
+                margin:1.5rem 0;
                 font-size:3rem;
             }
             p{

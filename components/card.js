@@ -55,7 +55,7 @@ export default function Card({element}){
                 color:white;
             }
             .container-card{
-                padding: 0.5rem 0;
+                padding: 1rem 0;
                 box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.2);
                 overflow:hidden;
                 position:relative;
@@ -83,6 +83,11 @@ export default function Card({element}){
                 img{
                     width:10rem;
                     height:auto;
+                    transition:all 0.5s ease;
+                }
+                img:hover{
+                    transform: rotate(15deg);
+                   
                 }
             .container-icon{
                 display:flex;

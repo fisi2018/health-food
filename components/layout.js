@@ -1,6 +1,7 @@
 import Header from "./header";
 import Footer from "./footer";
 
+
 export default function Layout({children}){
     return(
         <div className="container-all" >
@@ -12,6 +13,10 @@ export default function Layout({children}){
             <Footer/>
             <style jsx global>
                 {`
+                @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+                *{
+                    font-family:"Nunito",sans-serif;
+                }
                 .container-all{
                     display:flex;
                     flex-direction:column;
@@ -29,7 +34,6 @@ export default function Layout({children}){
                 *::after,
                 *::before{
                     box-sizing:border-box;
-                    font-family:sans-serif;
                     margin:0;
                     text-decoration:none;
                     padding:0;
